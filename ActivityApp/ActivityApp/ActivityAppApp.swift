@@ -11,7 +11,7 @@ import SwiftUI
 struct ActivityAppApp: App {
     var body: some Scene {
         WindowGroup {
-            Arrow()
+            ClockView()
         }
     }
 }

@@ -14,6 +14,9 @@
 		ACB662FB25E0133E00B64AC3 /* PolarLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB662FA25E0133E00B64AC3 /* PolarLayoutGuides.swift */; };
 		ACB662FE25E01A1000B64AC3 /* BezierCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB662FD25E01A1000B64AC3 /* BezierCurves.swift */; };
 		ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630025E032C400B64AC3 /* MorphingShapes.swift */; };
+		ACB6630625E0416700B64AC3 /* Transforming.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630525E0416700B64AC3 /* Transforming.swift */; };
+		ACB6630925E049F300B64AC3 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630825E049F300B64AC3 /* ClockView.swift */; };
+		ACB6630C25E0520200B64AC3 /* Patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630B25E0520200B64AC3 /* Patterns.swift */; };
 		ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		ACB662FA25E0133E00B64AC3 /* PolarLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarLayoutGuides.swift; sourceTree = "<group>"; };
 		ACB662FD25E01A1000B64AC3 /* BezierCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierCurves.swift; sourceTree = "<group>"; };
 		ACB6630025E032C400B64AC3 /* MorphingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingShapes.swift; sourceTree = "<group>"; };
+		ACB6630525E0416700B64AC3 /* Transforming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transforming.swift; sourceTree = "<group>"; };
+		ACB6630825E049F300B64AC3 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		ACB6630B25E0520200B64AC3 /* Patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patterns.swift; sourceTree = "<group>"; };
 		ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +90,9 @@
 				ACB662FA25E0133E00B64AC3 /* PolarLayoutGuides.swift */,
 				ACB662FD25E01A1000B64AC3 /* BezierCurves.swift */,
 				ACB6630025E032C400B64AC3 /* MorphingShapes.swift */,
+				ACB6630525E0416700B64AC3 /* Transforming.swift */,
+				ACB6630B25E0520200B64AC3 /* Patterns.swift */,
+				ACB6630825E049F300B64AC3 /* ClockView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,8 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */,
+				ACB6630625E0416700B64AC3 /* Transforming.swift in Sources */,
+				ACB6630C25E0520200B64AC3 /* Patterns.swift in Sources */,
 				ACB662FB25E0133E00B64AC3 /* PolarLayoutGuides.swift in Sources */,
 				ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */,
+				ACB6630925E049F300B64AC3 /* ClockView.swift in Sources */,
 				ACB662FE25E01A1000B64AC3 /* BezierCurves.swift in Sources */,
 				ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */,
 			);
