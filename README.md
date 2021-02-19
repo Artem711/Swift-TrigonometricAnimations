@@ -4,7 +4,6 @@
 <img align="right" src="https://github.com/artem711-guides/GUIDE-Swift-Animations/blob/master/Assets/apple-card-cover.png" width="480">
 <p>In August, Apple launched Apple Card, and we couldn’t help noticing widget for monthly payments from their app.</p><p>For this article, we took one screen and replicated the widget for choosing payment amount.</p>
 <p>
-    <a href="https://exyte.com/blog/replicating-apple-card-application-using-swiftui?utm_source=github&utm_medium=referral&utm_campaign=website_blog">Read Article »</a>
     <br>
     <a href="https://github.com/artem711-guides/GUIDE-Swift-Animations/tree/master/Apple%20Card">View Source Code »</a>
 </p>
