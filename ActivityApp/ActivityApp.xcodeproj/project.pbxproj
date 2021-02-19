@@ -11,6 +11,9 @@
 		ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B5925DFE58200DD1331 /* ActivityAppApp.swift */; };
 		ACB23B5E25DFE58400DD1331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB23B5D25DFE58400DD1331 /* Assets.xcassets */; };
 		ACB23B6125DFE58400DD1331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB23B6025DFE58400DD1331 /* Preview Assets.xcassets */; };
+		ACB662FB25E0133E00B64AC3 /* PolarLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB662FA25E0133E00B64AC3 /* PolarLayoutGuides.swift */; };
+		ACB662FE25E01A1000B64AC3 /* BezierCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB662FD25E01A1000B64AC3 /* BezierCurves.swift */; };
+		ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630025E032C400B64AC3 /* MorphingShapes.swift */; };
 		ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +23,9 @@
 		ACB23B5D25DFE58400DD1331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB23B6025DFE58400DD1331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACB23B6225DFE58400DD1331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB662FA25E0133E00B64AC3 /* PolarLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarLayoutGuides.swift; sourceTree = "<group>"; };
+		ACB662FD25E01A1000B64AC3 /* BezierCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierCurves.swift; sourceTree = "<group>"; };
+		ACB6630025E032C400B64AC3 /* MorphingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingShapes.swift; sourceTree = "<group>"; };
 		ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */,
+				ACB662FA25E0133E00B64AC3 /* PolarLayoutGuides.swift */,
+				ACB662FD25E01A1000B64AC3 /* BezierCurves.swift */,
+				ACB6630025E032C400B64AC3 /* MorphingShapes.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */,
+				ACB662FB25E0133E00B64AC3 /* PolarLayoutGuides.swift in Sources */,
+				ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */,
+				ACB662FE25E01A1000B64AC3 /* BezierCurves.swift in Sources */,
 				ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
