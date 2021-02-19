@@ -3,39 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC94C02F25E007F900F93052 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AC94C02E25E007F900F93052 /* PureSwiftUI */; };
 		ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B5925DFE58200DD1331 /* ActivityAppApp.swift */; };
-		ACB23B5C25DFE58200DD1331 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B5B25DFE58200DD1331 /* ContentView.swift */; };
 		ACB23B5E25DFE58400DD1331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB23B5D25DFE58400DD1331 /* Assets.xcassets */; };
 		ACB23B6125DFE58400DD1331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB23B6025DFE58400DD1331 /* Preview Assets.xcassets */; };
-		ACB23B6F25DFE61B00DD1331 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B6E25DFE61B00DD1331 /* Color+Extension.swift */; };
-		ACB23B7225DFE64200DD1331 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B7125DFE64200DD1331 /* HostingController.swift */; };
-		ACB23B7525DFE68600DD1331 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B7425DFE68600DD1331 /* ActivityData.swift */; };
-		ACB23B7825DFE6D500DD1331 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B7725DFE6D500DD1331 /* Constants.swift */; };
-		ACB23B7B25DFE71C00DD1331 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B7A25DFE71C00DD1331 /* BarChartView.swift */; };
-		ACB23B7E25DFE72000DD1331 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B7D25DFE72000DD1331 /* BlurView.swift */; };
-		ACB23B8125DFE72900DD1331 /* RingChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B8025DFE72900DD1331 /* RingChartView.swift */; };
-		ACB23B8425DFE73100DD1331 /* StandChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B8325DFE73100DD1331 /* StandChartView.swift */; };
+		ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACB23B5625DFE58200DD1331 /* ActivityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB23B5925DFE58200DD1331 /* ActivityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAppApp.swift; sourceTree = "<group>"; };
-		ACB23B5B25DFE58200DD1331 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACB23B5D25DFE58400DD1331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB23B6025DFE58400DD1331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACB23B6225DFE58400DD1331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACB23B6E25DFE61B00DD1331 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		ACB23B7125DFE64200DD1331 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
-		ACB23B7425DFE68600DD1331 /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
-		ACB23B7725DFE6D500DD1331 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		ACB23B7A25DFE71C00DD1331 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
-		ACB23B7D25DFE72000DD1331 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
-		ACB23B8025DFE72900DD1331 /* RingChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingChartView.swift; sourceTree = "<group>"; };
-		ACB23B8325DFE73100DD1331 /* StandChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandChartView.swift; sourceTree = "<group>"; };
+		ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC94C02F25E007F900F93052 /* PureSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,9 +54,7 @@
 		ACB23B5825DFE58200DD1331 /* ActivityApp */ = {
 			isa = PBXGroup;
 			children = (
-				ACB23B6D25DFE60400DD1331 /* Shared */,
-				ACB23B6B25DFE5F700DD1331 /* Controllers */,
-				ACB23B6925DFE5EF00DD1331 /* Views */,
+				ACEE3A3F25DFFBF800F8A631 /* Views */,
 				ACB23B5925DFE58200DD1331 /* ActivityAppApp.swift */,
 				ACB23B5D25DFE58400DD1331 /* Assets.xcassets */,
 				ACB23B6225DFE58400DD1331 /* Info.plist */,
@@ -87,66 +71,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		ACB23B6925DFE5EF00DD1331 /* Views */ = {
+		ACEE3A3F25DFFBF800F8A631 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ACB23B8725DFE74100DD1331 /* Shared */,
-				ACB23B8625DFE73200DD1331 /* Charts */,
-				ACB23B5B25DFE58200DD1331 /* ContentView.swift */,
+				ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		ACB23B6A25DFE5F300DD1331 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				ACB23B7425DFE68600DD1331 /* ActivityData.swift */,
-				ACB23B7725DFE6D500DD1331 /* Constants.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		ACB23B6B25DFE5F700DD1331 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				ACB23B7125DFE64200DD1331 /* HostingController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		ACB23B6C25DFE5FC00DD1331 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				ACB23B6E25DFE61B00DD1331 /* Color+Extension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		ACB23B6D25DFE60400DD1331 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				ACB23B6A25DFE5F300DD1331 /* Data */,
-				ACB23B6C25DFE5FC00DD1331 /* Extensions */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		ACB23B8625DFE73200DD1331 /* Charts */ = {
-			isa = PBXGroup;
-			children = (
-				ACB23B8025DFE72900DD1331 /* RingChartView.swift */,
-				ACB23B7A25DFE71C00DD1331 /* BarChartView.swift */,
-				ACB23B8325DFE73100DD1331 /* StandChartView.swift */,
-			);
-			path = Charts;
-			sourceTree = "<group>";
-		};
-		ACB23B8725DFE74100DD1331 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				ACB23B7D25DFE72000DD1331 /* BlurView.swift */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +95,9 @@
 			dependencies = (
 			);
 			name = ActivityApp;
+			packageProductDependencies = (
+				AC94C02E25E007F900F93052 /* PureSwiftUI */,
+			);
 			productName = ActivityApp;
 			productReference = ACB23B5625DFE58200DD1331 /* ActivityApp.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +125,9 @@
 				Base,
 			);
 			mainGroup = ACB23B4D25DFE58200DD1331;
+			packageReferences = (
+				AC94C02D25E007F900F93052 /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+			);
 			productRefGroup = ACB23B5725DFE58200DD1331 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -218,16 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB23B8425DFE73100DD1331 /* StandChartView.swift in Sources */,
-				ACB23B5C25DFE58200DD1331 /* ContentView.swift in Sources */,
-				ACB23B7E25DFE72000DD1331 /* BlurView.swift in Sources */,
-				ACB23B6F25DFE61B00DD1331 /* Color+Extension.swift in Sources */,
-				ACB23B8125DFE72900DD1331 /* RingChartView.swift in Sources */,
-				ACB23B7225DFE64200DD1331 /* HostingController.swift in Sources */,
+				ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */,
 				ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */,
-				ACB23B7B25DFE71C00DD1331 /* BarChartView.swift in Sources */,
-				ACB23B7525DFE68600DD1331 /* ActivityData.swift in Sources */,
-				ACB23B7825DFE6D500DD1331 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC94C02D25E007F900F93052 /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC94C02E25E007F900F93052 /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC94C02D25E007F900F93052 /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACB23B4E25DFE58200DD1331 /* Project object */;
 }
