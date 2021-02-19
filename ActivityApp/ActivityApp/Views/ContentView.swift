@@ -12,6 +12,24 @@ struct ContentView: View {
         Text("Hello, world!")
             .padding()
     }
+    
+    private func createCharts() -> some View {
+        return Group {
+            
+        } //: GROUP
+    }
+    
+    private func createFooter() -> some View {
+        return VStack {
+            
+        } //: VSTACK
+    }
+    
+    private func createNavigationBar(_ geometrySize: CGSize) -> some View {
+        return ZStack {
+            
+        } //: ZTACK
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
