@@ -16,23 +16,40 @@ private let buttons: [[TitleAndSymbol]] = [
     [("Comment", .text_bubble), ("Delete", .trash)]
 ]
 
+private let defaultAnimation = Animation.easeOut(duration: 0.2)
+private let showAnimation = Animation.spring(response: 0.3, dampingFraction: 0.6)
+private let hideAnimation = defaultAnimation
+
 struct TapbarAnimationView: View {
+    @State private var areButtonsVisible = true
+    @State private var homeLocation = CGPoint.zero
+    
     var body: some View {
         ZStack {
             Color.black.opacity(0.8)
+                .opacityIfNot(self.areButtonsVisible, 0)
+                .animation(defaultAnimation)
+            
             VStack(spacing: 60) {
                 Spacer() //: SPACER
                 ForEach(0..<buttons.count) { rowIndex in
                     HStack(spacing: 60) {
                         ForEach(0..<buttons[rowIndex].count) { columnIndex in
                             TapbarButton(data: buttons[rowIndex][columnIndex])
+                                .offsetToPositionIfNot(self.areButtonsVisible, self.homeLocation)
+                                .opacityIfNot(areButtonsVisible, 0)
                         }
                     }
                 }
                 Circle() //: CIRCLE
                     .fill(buttonBlue)
-                    .overlay(SFSymbol(.plus).foregroundColor(.white))
+                    .overlay(SFSymbol(.plus).foregroundColor(.white).rotateIf(areButtonsVisible, -45.degrees))
                     .frame(48)
+                    .geometryReader { (geo: GeometryProxy) in self.homeLocation = geo.globalCenter }
+                    .onTapGesture {
+                        withAnimation(self.areButtonsVisible ? hideAnimation : showAnimation) { self.areButtonsVisible.toggle()
+                        }
+                    }
             } //: VSTACK
             .padding()
         } //: ZSTACK
