@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC82D34625E121110045840A /* TapbarAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82D34525E121110045840A /* TapbarAnimationView.swift */; };
 		AC94C02F25E007F900F93052 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AC94C02E25E007F900F93052 /* PureSwiftUI */; };
 		ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B5925DFE58200DD1331 /* ActivityAppApp.swift */; };
 		ACB23B5E25DFE58400DD1331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB23B5D25DFE58400DD1331 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC82D34525E121110045840A /* TapbarAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapbarAnimationView.swift; sourceTree = "<group>"; };
 		ACB23B5625DFE58200DD1331 /* ActivityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB23B5925DFE58200DD1331 /* ActivityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAppApp.swift; sourceTree = "<group>"; };
 		ACB23B5D25DFE58400DD1331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC82D34425E120F90045840A /* TapbarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AC82D34525E121110045840A /* TapbarAnimationView.swift */,
+			);
+			path = TapbarAnimation;
+			sourceTree = "<group>";
+		};
 		ACB23B4D25DFE58200DD1331 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +117,7 @@
 		ACEE3A3F25DFFBF800F8A631 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AC82D34425E120F90045840A /* TapbarAnimation */,
 				ACB6631125E063D900B64AC3 /* TimingCurves */,
 				ACB6630F25E063CA00B64AC3 /* Study */,
 			);
@@ -192,6 +203,7 @@
 				ACB6630625E0416700B64AC3 /* Transforming.swift in Sources */,
 				ACB6630C25E0520200B64AC3 /* Patterns.swift in Sources */,
 				ACB662FB25E0133E00B64AC3 /* PolarLayoutGuides.swift in Sources */,
+				AC82D34625E121110045840A /* TapbarAnimationView.swift in Sources */,
 				ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */,
 				ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */,
 				ACB662FE25E01A1000B64AC3 /* BezierCurves.swift in Sources */,
