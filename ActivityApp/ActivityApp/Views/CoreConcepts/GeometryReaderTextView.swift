@@ -43,18 +43,29 @@ private struct UnderlinedText: View {
     
     var body: some View {
         ZStack {
-            Text(self.text)
+            Text(self.text) //: TEXT
                 .font(self.font)
                 .fixedSize()
-                .background(GeometryReader(content: { geo in
-                    Color.clear.onAppear() { self.textSize = geo.size }.id(self.text)
-            }))
-            Color.black.frame(textSize.width, 2)
+                .geometry(id: text) { geo in self.textSize = geo.size }
+            
+            Color.black.frame(textSize.width, 2) //: COLOR
                 .yOffset(textSize.height / 2)
         } //: ZSTACK
         .frame(width: textSize.width + padding, height: textSize.height + padding)
         .background(Color.white.cornerRadius(10).shadow(5))
         .blendMode(.darken)
+    }
+}
+
+public extension View {
+    func geometry(_ geoCallback: @escaping (GeometryProxy) -> Void) -> some View {
+        geometry(id: 1, geoCallback)
+    }
+    
+    func geometry<T: Hashable>(id: T, _ geoCallback: @escaping (GeometryProxy) -> Void) -> some View {
+        background(GeometryReader(content: { geo in
+            Color.clear.onAppear() { geoCallback(geo) }.id(id)
+        }))
     }
 }
 
