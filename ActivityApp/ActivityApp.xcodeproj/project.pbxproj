@@ -18,6 +18,7 @@
 		ACB6630625E0416700B64AC3 /* Transforming.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630525E0416700B64AC3 /* Transforming.swift */; };
 		ACB6630C25E0520200B64AC3 /* Patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630B25E0520200B64AC3 /* Patterns.swift */; };
 		ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */; };
+		ACCABC6425E1350700062729 /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6325E1350700062729 /* GeometryReader.swift */; };
 		ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		ACB6630525E0416700B64AC3 /* Transforming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transforming.swift; sourceTree = "<group>"; };
 		ACB6630B25E0520200B64AC3 /* Patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patterns.swift; sourceTree = "<group>"; };
 		ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingCurvesView.swift; sourceTree = "<group>"; };
+		ACCABC6325E1350700062729 /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
 		ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,9 +116,18 @@
 			path = TimingCurves;
 			sourceTree = "<group>";
 		};
+		ACCABC5C25E131E700062729 /* CoreConcepts */ = {
+			isa = PBXGroup;
+			children = (
+				ACCABC6325E1350700062729 /* GeometryReader.swift */,
+			);
+			path = CoreConcepts;
+			sourceTree = "<group>";
+		};
 		ACEE3A3F25DFFBF800F8A631 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACCABC5C25E131E700062729 /* CoreConcepts */,
 				AC82D34425E120F90045840A /* TapbarAnimation */,
 				ACB6631125E063D900B64AC3 /* TimingCurves */,
 				ACB6630F25E063CA00B64AC3 /* Study */,
@@ -207,6 +218,7 @@
 				ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */,
 				ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */,
 				ACB662FE25E01A1000B64AC3 /* BezierCurves.swift in Sources */,
+				ACCABC6425E1350700062729 /* GeometryReader.swift in Sources */,
 				ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
