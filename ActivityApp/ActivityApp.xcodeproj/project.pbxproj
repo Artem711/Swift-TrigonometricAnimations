@@ -18,7 +18,8 @@
 		ACB6630625E0416700B64AC3 /* Transforming.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630525E0416700B64AC3 /* Transforming.swift */; };
 		ACB6630C25E0520200B64AC3 /* Patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6630B25E0520200B64AC3 /* Patterns.swift */; };
 		ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */; };
-		ACCABC6425E1350700062729 /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6325E1350700062729 /* GeometryReader.swift */; };
+		ACCABC6825E1355000062729 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6725E1355000062729 /* GeometryReaderView.swift */; };
+		ACCABC6B25E13A7500062729 /* GeometryReaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */; };
 		ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +36,8 @@
 		ACB6630525E0416700B64AC3 /* Transforming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transforming.swift; sourceTree = "<group>"; };
 		ACB6630B25E0520200B64AC3 /* Patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patterns.swift; sourceTree = "<group>"; };
 		ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingCurvesView.swift; sourceTree = "<group>"; };
-		ACCABC6325E1350700062729 /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
+		ACCABC6725E1355000062729 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTextView.swift; sourceTree = "<group>"; };
 		ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +121,8 @@
 		ACCABC5C25E131E700062729 /* CoreConcepts */ = {
 			isa = PBXGroup;
 			children = (
-				ACCABC6325E1350700062729 /* GeometryReader.swift */,
+				ACCABC6725E1355000062729 /* GeometryReaderView.swift */,
+				ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */,
 			);
 			path = CoreConcepts;
 			sourceTree = "<group>";
@@ -213,12 +216,13 @@
 				ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */,
 				ACB6630625E0416700B64AC3 /* Transforming.swift in Sources */,
 				ACB6630C25E0520200B64AC3 /* Patterns.swift in Sources */,
+				ACCABC6825E1355000062729 /* GeometryReaderView.swift in Sources */,
 				ACB662FB25E0133E00B64AC3 /* PolarLayoutGuides.swift in Sources */,
 				AC82D34625E121110045840A /* TapbarAnimationView.swift in Sources */,
 				ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */,
 				ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */,
 				ACB662FE25E01A1000B64AC3 /* BezierCurves.swift in Sources */,
-				ACCABC6425E1350700062729 /* GeometryReader.swift in Sources */,
+				ACCABC6B25E13A7500062729 /* GeometryReaderTextView.swift in Sources */,
 				ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
