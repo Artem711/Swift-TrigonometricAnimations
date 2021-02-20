@@ -20,6 +20,7 @@
 		ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */; };
 		ACCABC6825E1355000062729 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6725E1355000062729 /* GeometryReaderView.swift */; };
 		ACCABC6B25E13A7500062729 /* GeometryReaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */; };
+		ACCABC6E25E145EA00062729 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACCABC6D25E145EA00062729 /* README.md */; };
 		ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingCurvesView.swift; sourceTree = "<group>"; };
 		ACCABC6725E1355000062729 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTextView.swift; sourceTree = "<group>"; };
+		ACCABC6D25E145EA00062729 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */,
+				ACCABC6D25E145EA00062729 /* README.md */,
 			);
 			path = TimingCurves;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCABC6E25E145EA00062729 /* README.md in Resources */,
 				ACB23B6125DFE58400DD1331 /* Preview Assets.xcassets in Resources */,
 				ACB23B5E25DFE58400DD1331 /* Assets.xcassets in Resources */,
 			);
