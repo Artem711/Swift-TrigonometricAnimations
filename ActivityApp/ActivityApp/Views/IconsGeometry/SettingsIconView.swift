@@ -22,11 +22,12 @@ private let halfSpokeWidth: CGFloat = 0.025
 private let spokePolarConfig = LayoutGuideConfig.polar(rings: [0.78], segments: 60)
 private let spokeGridConfig = LayoutGuideConfig.grid(columns: [0.5 - halfSpokeWidth, 0.5 + halfSpokeWidth],
                                                      rows: [0.1, 0.25, 0.46])
-
 private let circleFullDeg = 360
 private let defaultAngle = -30.5.degrees
 
 struct SettingsIconView: View {
+    @State private var isAnimating = false
+    
     var body: some View {
         let debug = false
         let primaryCogScale: CGFloat = 0.8
@@ -36,18 +37,25 @@ struct SettingsIconView: View {
             
             ZStack {
                 Color(white: 0.183)
-                    .clipCircle()
+                    .clipShape(Circle())
                     .opacityIf(debug, 0)
                 
                 Shroud()
                     .iconStyle(debug: debug)
+
+                Cog(scale: 0.3, debug: debug)
+                    .rotateIfNot(debug, -defaultAngle)
+                    .rotateIf(isAnimating, -720.degrees)
+                    .iconStyle(debug: debug)
                 
                 Cog(inner: true, scale: 0.53, debug: debug)
                     .rotateIfNot(debug, defaultAngle)
+                    .rotateIf(isAnimating, -360.degrees)
                     .iconStyle(debug: debug)
                 
                 Cog(scale: primaryCogScale, debug: debug)
                     .rotateIfNot(debug, defaultAngle)
+                    .rotateIf(isAnimating, 360.degrees)
                     .iconStyle(debug: debug)
 //                    .layoutGuide(teethLayoutConfig.scaled(primaryCogScale), color: .green)
                     .layoutGuide(spokePolarConfig.scaled(primaryCogScale), color: .blue, lineWidth: 1)
@@ -59,6 +67,11 @@ struct SettingsIconView: View {
             .frame(400)
         } //: ZSTACK
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        .onAppear() {
+            withAnimation(Animation.linear(duration: 15).repeatForever(autoreverses: false)) {
+                self.isAnimating = true
+            }
+        }
     }
 }
 
@@ -137,3 +150,4 @@ struct SettingsIconView_Previews: PreviewProvider {
         SettingsIconView()
     }
 }
+
