@@ -21,8 +21,8 @@
 		ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */; };
 		ACCABC6825E1355000062729 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6725E1355000062729 /* GeometryReaderView.swift */; };
 		ACCABC6B25E13A7500062729 /* GeometryReaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */; };
-		ACCABC6E25E145EA00062729 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACCABC6D25E145EA00062729 /* README.md */; };
 		ACCABC7325E1469900062729 /* ExtensionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC7225E1469900062729 /* ExtensionsView.swift */; };
+		ACCE826025E2685300C514C3 /* SquishyToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE825F25E2685300C514C3 /* SquishyToggle.swift */; };
 		ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +42,8 @@
 		ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingCurvesView.swift; sourceTree = "<group>"; };
 		ACCABC6725E1355000062729 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTextView.swift; sourceTree = "<group>"; };
-		ACCABC6D25E145EA00062729 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ACCABC7225E1469900062729 /* ExtensionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsView.swift; sourceTree = "<group>"; };
+		ACCE825F25E2685300C514C3 /* SquishyToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquishyToggle.swift; sourceTree = "<group>"; };
 		ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				ACB6631325E070A800B64AC3 /* TimingCurvesView.swift */,
-				ACCABC6D25E145EA00062729 /* README.md */,
 			);
 			path = TimingCurves;
 			sourceTree = "<group>";
@@ -143,14 +142,31 @@
 			path = IconsGeometry;
 			sourceTree = "<group>";
 		};
+		ACCE825C25E2683100C514C3 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				AC82D34425E120F90045840A /* TapbarAnimation */,
+				ACCABC7625E1506100062729 /* IconsGeometry */,
+				ACB6631125E063D900B64AC3 /* TimingCurves */,
+				ACCE825F25E2685300C514C3 /* SquishyToggle.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		ACCE825D25E2683B00C514C3 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				ACB6630F25E063CA00B64AC3 /* LayoutGuide */,
+				ACCABC5C25E131E700062729 /* CoreConcepts */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
 		ACEE3A3F25DFFBF800F8A631 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ACCABC7625E1506100062729 /* IconsGeometry */,
-				ACCABC5C25E131E700062729 /* CoreConcepts */,
-				AC82D34425E120F90045840A /* TapbarAnimation */,
-				ACB6631125E063D900B64AC3 /* TimingCurves */,
-				ACB6630F25E063CA00B64AC3 /* LayoutGuide */,
+				ACCE825D25E2683B00C514C3 /* Tutorials */,
+				ACCE825C25E2683100C514C3 /* Projects */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCABC6E25E145EA00062729 /* README.md in Resources */,
 				ACB23B6125DFE58400DD1331 /* Preview Assets.xcassets in Resources */,
 				ACB23B5E25DFE58400DD1331 /* Assets.xcassets in Resources */,
 			);
@@ -237,6 +252,7 @@
 				ACCABC6825E1355000062729 /* GeometryReaderView.swift in Sources */,
 				ACB662FB25E0133E00B64AC3 /* PolarLayoutGuides.swift in Sources */,
 				AC82D34625E121110045840A /* TapbarAnimationView.swift in Sources */,
+				ACCE826025E2685300C514C3 /* SquishyToggle.swift in Sources */,
 				ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */,
 				ACA5B94725E247BB005196C0 /* SettingsIconView.swift in Sources */,
 				ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */,

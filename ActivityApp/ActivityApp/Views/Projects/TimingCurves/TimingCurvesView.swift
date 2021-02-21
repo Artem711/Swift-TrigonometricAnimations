@@ -8,12 +8,13 @@
 import SwiftUI
 import PureSwiftUI
 
-
+// MARK: - Constants
 private let numDots = 5
 private let dotSize: CGFloat = 8
 private let duration: Double = 2
 private let maxOffset = UIScreen.mainWidthScaled(0.5) + dotSize
 
+// MARK: - Coordinates
 private let gridCoordName = "grid-coord"
 private let controlPointSize: CGFloat = 10
 
@@ -132,7 +133,7 @@ private struct CurveShape: Shape {
     }
 }
 
-// Utilities
+// MARK: - Utilities
 private func scaleFromUnitPoint(_ point: CGPoint, to size: CGFloat) -> CGPoint {
     let invertedPoint = invertY(point)
     let scaledPoint = invertedPoint.scaled(size)
