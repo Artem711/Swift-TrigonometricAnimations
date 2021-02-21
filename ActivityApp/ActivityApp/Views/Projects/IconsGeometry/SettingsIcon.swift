@@ -30,7 +30,7 @@ private let spokeGridConfig = LayoutGuideConfig.grid(
 private let turnDegrees = (360 / 3)
 private let defaultAngle = -30.5.degrees
 
-private struct SettingsIconView: View {
+private struct SettingsIcon: View {
     @State private var isAnimating = false
     
     var body: some View {
@@ -151,8 +151,8 @@ private extension Shape {
     }
 }
 
-struct SettingsIconView_Previews: PreviewProvider {
+struct SettingsIcon_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsIconView()
+        SettingsIcon()
     }
 }

@@ -56,9 +56,11 @@ private struct ToggleFrame: Shape {
         let curveYOffset = rect.heightScaled(0.18)
         let arcRadius = rect.height / 2
         path.move(g[0, 0])
+        
         path.curve(rect.top.yOffset(curveYOffset), cp1: g[1, 0], cp2: g[1, 0].yOffset(curveYOffset), showControlPoints: debug)
         path.curve(g[3, 0], cp1: g[2, 0].yOffset(curveYOffset), cp2: g[2, 0], showControlPoints: debug)
         path.arc(g[3, 1], radius: arcRadius, startAngle: .top, endAngle: .bottom)
+        
         path.curve(rect.bottom.yOffset(-curveYOffset), cp1: g[2, 2], cp2: g[2, 2].yOffset(-curveYOffset), showControlPoints: debug)
         path.curve(g[0, 2], cp1: g[1, 2].yOffset(-curveYOffset), cp2: g[1, 2], showControlPoints: debug)
         path.arc(g[0, 1], radius: arcRadius, startAngle: .bottom, endAngle: .top)

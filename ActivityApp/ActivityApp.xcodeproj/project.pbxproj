@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC82D34625E121110045840A /* TapbarAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82D34525E121110045840A /* TapbarAnimationView.swift */; };
 		AC94C02F25E007F900F93052 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AC94C02E25E007F900F93052 /* PureSwiftUI */; };
-		ACA5B94725E247BB005196C0 /* SettingsIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5B94625E247BB005196C0 /* SettingsIconView.swift */; };
+		ACA5B94725E247BB005196C0 /* SettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5B94625E247BB005196C0 /* SettingsIcon.swift */; };
 		ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB23B5925DFE58200DD1331 /* ActivityAppApp.swift */; };
 		ACB23B5E25DFE58400DD1331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB23B5D25DFE58400DD1331 /* Assets.xcassets */; };
 		ACB23B6125DFE58400DD1331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB23B6025DFE58400DD1331 /* Preview Assets.xcassets */; };
@@ -23,12 +23,13 @@
 		ACCABC6B25E13A7500062729 /* GeometryReaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */; };
 		ACCABC7325E1469900062729 /* ExtensionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABC7225E1469900062729 /* ExtensionsView.swift */; };
 		ACCE826025E2685300C514C3 /* SquishyToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE825F25E2685300C514C3 /* SquishyToggle.swift */; };
+		ACCE826425E2793D00C514C3 /* SafariIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE826325E2793D00C514C3 /* SafariIcon.swift */; };
 		ACEE3A3C25DFFBF200F8A631 /* GridLayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC82D34525E121110045840A /* TapbarAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapbarAnimationView.swift; sourceTree = "<group>"; };
-		ACA5B94625E247BB005196C0 /* SettingsIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIconView.swift; sourceTree = "<group>"; };
+		ACA5B94625E247BB005196C0 /* SettingsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIcon.swift; sourceTree = "<group>"; };
 		ACB23B5625DFE58200DD1331 /* ActivityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB23B5925DFE58200DD1331 /* ActivityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAppApp.swift; sourceTree = "<group>"; };
 		ACB23B5D25DFE58400DD1331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		ACCABC6A25E13A7500062729 /* GeometryReaderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTextView.swift; sourceTree = "<group>"; };
 		ACCABC7225E1469900062729 /* ExtensionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsView.swift; sourceTree = "<group>"; };
 		ACCE825F25E2685300C514C3 /* SquishyToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquishyToggle.swift; sourceTree = "<group>"; };
+		ACCE826325E2793D00C514C3 /* SafariIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariIcon.swift; sourceTree = "<group>"; };
 		ACEE3A3B25DFFBF200F8A631 /* GridLayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutGuides.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +139,8 @@
 		ACCABC7625E1506100062729 /* IconsGeometry */ = {
 			isa = PBXGroup;
 			children = (
-				ACA5B94625E247BB005196C0 /* SettingsIconView.swift */,
+				ACA5B94625E247BB005196C0 /* SettingsIcon.swift */,
+				ACCE826325E2793D00C514C3 /* SafariIcon.swift */,
 			);
 			path = IconsGeometry;
 			sourceTree = "<group>";
@@ -254,11 +257,12 @@
 				AC82D34625E121110045840A /* TapbarAnimationView.swift in Sources */,
 				ACCE826025E2685300C514C3 /* SquishyToggle.swift in Sources */,
 				ACB6630125E032C400B64AC3 /* MorphingShapes.swift in Sources */,
-				ACA5B94725E247BB005196C0 /* SettingsIconView.swift in Sources */,
+				ACA5B94725E247BB005196C0 /* SettingsIcon.swift in Sources */,
 				ACB6631425E070A800B64AC3 /* TimingCurvesView.swift in Sources */,
 				ACB662FE25E01A1000B64AC3 /* BezierCurves.swift in Sources */,
 				ACCABC6B25E13A7500062729 /* GeometryReaderTextView.swift in Sources */,
 				ACCABC7325E1469900062729 /* ExtensionsView.swift in Sources */,
+				ACCE826425E2793D00C514C3 /* SafariIcon.swift in Sources */,
 				ACB23B5A25DFE58200DD1331 /* ActivityAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
